@@ -1,2 +1,2 @@
 # JagoPOS
-A Network-Enabled Point of Sale
+A Java-based Network-Enabled Point of Sale
