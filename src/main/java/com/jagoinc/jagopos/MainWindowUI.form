@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="SearchSelectorButtonGroup">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="JagoPOSHeader" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="storeInfoTextLabel" alignment="1" min="-2" pref="340" max="-2" attributes="0"/>
+                          <Component id="customerTabbedPane" min="-2" pref="343" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="clockPanel" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="SettingsButton" min="-2" pref="337" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="NewProductButton" min="-2" pref="198" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="NewSaleButton" min="-2" pref="198" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="CheckOutButton" min="-2" pref="198" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="centralSearchPanel" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Component id="shoppingCartPanel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="shoppingCartPanel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="JagoPOSHeader" min="-2" pref="79" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="customerTabbedPane" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="storeInfoTextLabel" min="-2" pref="153" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="centralSearchPanel" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="clockPanel" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="NewProductButton" alignment="3" min="-2" pref="88" max="-2" attributes="0"/>
+                              <Component id="NewSaleButton" alignment="3" min="-2" pref="88" max="-2" attributes="0"/>
+                              <Component id="CheckOutButton" alignment="3" min="-2" pref="88" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="SettingsButton" min="-2" pref="88" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="CheckOutButton">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Impact" size="24" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="99" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="CHECK OUT"/>
+        <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[147, 31]"/>
+        </Property>
+        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[147, 31]"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CheckOutButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="NewSaleButton">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Impact" size="24" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="33" red="33" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="NEW SALE"/>
+        <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[146, 31]"/>
+        </Property>
+        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[146, 31]"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="NewSaleButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="JagoPOSHeader">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Lucida Grande" size="58" style="3"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Jago POS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="SettingsButton">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Lucida Grande" size="16" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Settings"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SettingsButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="NewProductButton">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Impact" size="24" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="66" red="33" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="NEW PRODUCT"/>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[170, 39]"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="NewProductButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JTabbedPane" name="customerTabbedPane">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="Guest" noResource="true"/>
+        <Property name="opaque" type="boolean" value="true"/>
+      </Properties>
+      <AccessibilityProperties>
+        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="Guest"/>
+      </AccessibilityProperties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Guest">
+                <Property name="tabTitle" type="java.lang.String" value="Guest"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="customerNameLargeHeading" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="guestReminderTextLabel" alignment="1" pref="310" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="nameCustomerAddTextLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="phoneCustomerAddTextLabel" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="phoneNumberAddCustomerTextField" max="32767" attributes="0"/>
+                                  <Component id="guestAddCustomerNameTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="addCustomerGuestButton" min="-2" pref="141" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="optionalTextLabel" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="83" max="-2" attributes="0"/>
+                      <Component id="clearCustomerButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="customerNameLargeHeading" min="-2" pref="44" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="guestReminderTextLabel" min="-2" pref="69" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                      <Component id="clearCustomerButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="guestAddCustomerNameTextField" alignment="3" min="-2" pref="37" max="-2" attributes="0"/>
+                          <Component id="nameCustomerAddTextLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="phoneCustomerAddTextLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="phoneNumberAddCustomerTextField" alignment="3" min="-2" pref="39" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="addCustomerGuestButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="optionalTextLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="10" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="customerNameLargeHeading">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Grande" size="24" style="1"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Guest"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="optionalTextLabel">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Optional"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="guestAddCustomerNameTextField">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="Does" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="guestAddCustomerNameTextFieldActionPerformed"/>
+                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="guestAddCustomerNameTextFieldKeyPressed"/>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="guestAddCustomerNameTextFieldKeyReleased"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="nameCustomerAddTextLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Name:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="phoneCustomerAddTextLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Phone #:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="phoneNumberAddCustomerTextField">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="phoneNumberAddCustomerTextFieldActionPerformed"/>
+                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="phoneNumberAddCustomerTextFieldKeyPressed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="addCustomerGuestButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Add Customer"/>
+                <Property name="actionCommand" type="java.lang.String" value="Add Customeer"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addCustomerGuestButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="guestReminderTextLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Grande" size="14" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Always Thank Customers For Their Business!"/>
+                <Property name="verticalAlignment" type="int" value="1"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="clearCustomerButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Clear Customer"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="clearCustomerButtonActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Customer Lookup">
+                <Property name="tabTitle" type="java.lang.String" value="Customer Lookup"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="attachCustomerButton" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="editCustomerButton" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jScrollPane4" pref="0" max="32767" attributes="0"/>
+                          <Component id="jLabel6" pref="310" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="customerSearchTextField" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="customerSearchButton" min="-2" pref="77" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="customerSearchTextField" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
+                          <Component id="customerSearchButton" alignment="3" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane4" min="-2" pref="172" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="attachCustomerButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="editCustomerButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel6">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Grande" size="18" style="1"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Customer Lookup"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="customerSearchTextField">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Customer Search..."/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="customerSearchTextFieldMouseClicked"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="customerSearchTextFieldActionPerformed"/>
+                <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="customerSearchTextFieldKeyTyped"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="customerSearchButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Search"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="customerSearchButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="attachCustomerButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Attach Customer"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="attachCustomerButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="editCustomerButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Edit"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="editCustomerButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane4">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="customerSearchTable">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="3" rowCount="9">
+                        <Column editable="false" title="ID" type="java.lang.Integer"/>
+                        <Column editable="false" title="Name" type="java.lang.String"/>
+                        <Column editable="false" title="Postal Code" type="java.lang.String"/>
+                      </Table>
+                    </Property>
+                    <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                      <TableColumnModel selectionModel="0">
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                      </TableColumnModel>
+                    </Property>
+                    <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                      <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="centralSearchPanel">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="WithSelectedItemsLabel" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="addToCartButton" min="-2" pref="127" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="editItemButton" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jScrollPane2" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="itemSearchBarTextField" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="SearchDatabaseButton" min="-2" pref="97" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="searchTextLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="ProductSearchRadioButton" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="invoiceSearchRadioButton" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="searchTextLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ProductSearchRadioButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="invoiceSearchRadioButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="itemSearchBarTextField" max="32767" attributes="0"/>
+                      <Component id="SearchDatabaseButton" min="-2" pref="39" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane2" min="-2" pref="461" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                          <Component id="addToCartButton" alignment="3" max="32767" attributes="0"/>
+                          <Component id="WithSelectedItemsLabel" alignment="3" max="32767" attributes="0"/>
+                      </Group>
+                      <Component id="editItemButton" alignment="1" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="mainSearchTable">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Grande" size="16" style="0"/>
+                </Property>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="4" rowCount="14">
+                    <Column editable="false" title="UPC" type="java.lang.Long"/>
+                    <Column editable="false" title="Description" type="java.lang.String"/>
+                    <Column editable="false" title="Stock" type="java.lang.Integer"/>
+                    <Column editable="false" title="Price" type="java.lang.Double"/>
+                  </Table>
+                </Property>
+                <Property name="autoResizeMode" type="int" value="4"/>
+                <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                  <TableColumnModel selectionModel="3">
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="20" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="60" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="5" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="10" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                  </TableColumnModel>
+                </Property>
+                <Property name="rowHeight" type="int" value="31"/>
+                <Property name="rowMargin" type="int" value="0"/>
+                <Property name="showVerticalLines" type="boolean" value="false"/>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JTextField" name="itemSearchBarTextField">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="2"/>
+            <Property name="text" type="java.lang.String" value="Product Search..."/>
+            <Property name="toolTipText" type="java.lang.String" value="Type here to search..."/>
+            <Property name="actionCommand" type="java.lang.String" value="&lt;Not Set&gt;"/>
+            <Property name="mixingCutoutShape" type="java.awt.Shape" editor="org.netbeans.modules.form.ComponentChooserEditor">
+              <ComponentRef name="null"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="itemSearchBarTextFieldMouseClicked"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="itemSearchBarTextFieldActionPerformed"/>
+            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="itemSearchBarTextFieldKeyTyped"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="SearchDatabaseButton">
+          <Properties>
+            <Property name="label" type="java.lang.String" value="Search"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SearchDatabaseButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="searchTextLabel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Grande" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="SEARCH:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="ProductSearchRadioButton">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="SearchSelectorButtonGroup"/>
+            </Property>
+            <Property name="selected" type="boolean" value="true"/>
+            <Property name="text" type="java.lang.String" value="Products"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ProductSearchRadioButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="invoiceSearchRadioButton">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="SearchSelectorButtonGroup"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Invoices"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="invoiceSearchRadioButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="WithSelectedItemsLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="With Selected Items -&gt; -&gt; -&gt; -&gt; -&gt; -&gt; -&gt; -&gt; -&gt; -&gt; -&gt; -&gt;"/>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="addToCartButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Add to Cart"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addToCartButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="editItemButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Edit"/>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="editItemButtonActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="shoppingCartPanel">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="ShoppingCartLabel" pref="247" max="32767" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="removeFromCartButton" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="ExitButton" min="-2" pref="65" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jScrollPane3" alignment="1" pref="0" max="32767" attributes="0"/>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="grandTotalTextLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="totalAfterTaxLabel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel9" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel10" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="totalDiscountLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="taxAmountLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="subtotalLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="ExitButton" alignment="0" min="-2" pref="40" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="ShoppingCartLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="removeFromCartButton" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane3" min="-2" pref="460" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="subtotalLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="totalDiscountLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="taxAmountLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="29" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="totalAfterTaxLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="grandTotalTextLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="removeFromCartButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Remove From Cart"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="removeFromCartButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="shoppingCartTable">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="3" rowCount="27">
+                    <Column editable="false" title="Description" type="java.lang.String"/>
+                    <Column editable="true" title="Qty" type="java.lang.Integer"/>
+                    <Column editable="false" title="Price" type="java.lang.Double"/>
+                  </Table>
+                </Property>
+                <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                  <TableColumnModel selectionModel="0">
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                  </TableColumnModel>
+                </Property>
+                <Property name="showHorizontalLines" type="boolean" value="false"/>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="ShoppingCartLabel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Grande" size="22" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="2"/>
+            <Property name="text" type="java.lang.String" value=" SHOPPING CART:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="totalDiscountLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="$0.00"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="subtotalLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="$0.00"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="taxAmountLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="$0.00"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ExitButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Exit"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ExitButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="grandTotalTextLabel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Grande" size="24" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Grand Total:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="totalAfterTaxLabel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Grande" size="24" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="$0.00"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Subtotal:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Discounts:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tax:"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="storeInfoTextLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Lucida Grande" size="16" style="0"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;b&gt;&lt;u&gt;This Store:&lt;/u&gt;&lt;/b&gt; &lt;br /&gt;Mega City One&lt;br /&gt; 7301 Melrose Ave.&lt;br /&gt; Los Angeles, CA 90046&lt;br /&gt; (323) 934-3373&lt;br /&gt;&lt;br  /&gt; megacity.one | info@megacity.one &lt;/html&gt;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="storeInfoTextLabelFocusGained"/>
+        <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="storeInfoTextLabelMouseEntered"/>
+        <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="storeInfoTextLabelPropertyChange"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JPanel" name="clockPanel">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="28" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+  </SubComponents>
+</Form>
