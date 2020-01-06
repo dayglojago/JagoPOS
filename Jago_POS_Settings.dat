@@ -1,0 +1,9 @@
+_businessName=Mega City 1
+_businessAddress=7301 Melrose Ave<br />Los Angeles CA 90046
+_businessWebsite=http://www.megacity.one
+_businessEmail=info@megacity.one
+_businessPhone=(323) 934-3373
+_currencyChar=$
+_currencyMultiplier=1.0
+_taxRate=10.5
+_salesTaxName=CA Sales Tax
